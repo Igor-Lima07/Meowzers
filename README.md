@@ -20,6 +20,7 @@ são mostradas informações mais detalhas.
 * JS
 * CatAPI
 * Axios
+* Typescript
 
 ## Como rodar
 
