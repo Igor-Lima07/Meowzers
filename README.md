@@ -1,50 +1,29 @@
-# Welcome to your Expo app 👋
+# Meowzers 
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Um projeto feito com **React Native + Expo** que usa a [CatAPI](https://thecatapi.com/) e mostra informações sobre gatinhos.
 
-## Get started
+Esse projeto foi feito para a atividade da disciplina de PAMII da ETEC Antonio Furlan, lecionada pelo Professor Jacques Simões
 
-1. Install dependencies
+O esquema de cores é baseado no petshop "Encanto Pet"
 
-   ```bash
-   npm install
-   ```
+Obs: Esse projeto era para ser uma parodia do Tinder só que com gatos, ideia que veio do video [I Made Tinder But For Adopting Pets](https://www.youtube.com/watch?v=_DAb1XDsaHM) do canal [The Coding Sloth](https://www.youtube.com/@TheCodingSloth), porém não consegui atingir meu objetivo, fica para a proxima.
 
-2. Start the app
+## Como funciona?
 
-   ```bash
-    npx expo start
-   ```
+O projeto usa a API para buscar informações sobre raças de gatos e cria uma lista usando flatlist, então quando alguma das raças de gato é selecionada<br>
+são mostradas informações mais detalhas.
 
-In the output, you'll find options to open the app in a
+## Tecnologias Usadas
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+* Expo
+* React-Native
+* JS
+* CatAPI
+* Axios
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Como rodar
 
-## Get a fresh project
+1. Clone o repositorio usando "git clone [link do repositorio]
+2. Instale as dependencias usando 'npm i'
+3. Rode o projeto usando 'npm run web'
 
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
